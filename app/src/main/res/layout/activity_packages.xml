@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:background="#67bd4d">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView android:id="@+id/loginscrn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Packages"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/Package1"
+            android:layout_width="332dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_text"
+            android:text="package one"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:onClick="clickPackageDetails"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/Package2"
+            android:layout_width="332dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_text"
+            android:text="package two"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:onClick="clickPackageDetails"
+            android:clickable="true"/>
+
+
+        <TextView
+            android:id="@+id/Package3"
+            android:layout_width="332dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="package three"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_text"
+            android:onClick="clickPackageDetails"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/Package4"
+            android:layout_width="332dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="package four"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_text"
+            android:onClick="clickPackageDetails"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/Package5"
+            android:layout_width="332dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="package five"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_text"
+            android:onClick="clickPackageDetails"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/Package6"
+            android:layout_width="332dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="package six"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_text"
+            android:onClick="clickPackageDetails"
+            android:clickable="true"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PackageConfirm"
+    android:background="#67bd4d">
+
+
+    <TextView
+        android:id="@+id/PackageDetails1"
+        android:layout_width="340dp"
+        android:layout_height="426dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/rounded_text"
+        android:clickable="true"
+        android:text="package details"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <Button
+        android:id="@+id/buttonPackageNext"
+        android:layout_width="129dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:backgroundTint="#1690F1"
+        android:onClick="clickNextPackage"
+        android:text="finish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PackageDetails1" />
+
+    <Button
+        android:id="@+id/buttonPackageBack"
+        android:layout_width="129dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#1690F1"
+        android:onClick="clickBackPackage"
+        android:text="back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PackageDetails1" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="210dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:gravity="center"
+        android:text="Package Details"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

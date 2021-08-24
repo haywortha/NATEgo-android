@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NATEgo</string>
+    <string name="login">Login</string>
+    <string name="accountnew">New Account</string>
+    <string name="welcomeNATE">Welcome to NATE Go!</string>
+    <string name="regNext">Next</string>
+    <string name="regActivity">Tell me your activity level!</string>
+    <string name="regSetgoal">Set your goal!</string>
+    <string name="regBio">Biometric details</string>
+    <string name="regFinish">Finish</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Barcode Scanning</string>
+    <string name="title_notifications">Object Recognition</string>
+    <string name="addFood">Add a Food</string>
+    <string name="finalizeFood">Add Meal</string>
+    <string name="finalizeCancel">Cancel</string>
+    <string name="finalizeEdit">Edit</string>
+    <string name="calcBMI">Calculate</string>
+
+</resources>
